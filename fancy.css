@@ -1,0 +1,63 @@
+#main {
+	margin: 0 auto;
+	max-width: 900px;
+	width: 100%;
+	padding: 1em;
+	box-sizing: border-box
+}
+
+.content-box {
+	padding: 2em;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, .16);
+	border-radius: 5px;
+	margin-top: 1em;
+	background: #fff;
+	text-align: left
+}
+
+#input,
+#output-wrapper,
+.header {
+	text-align: center
+}
+
+#input {
+	resize: none;
+	border: none;
+	outline: 0;
+	width: 100%;
+	height: 100%;
+	font-size: 17px;
+	font-weight: 600;
+	line-height: 17px !important
+}
+
+#input::placeholder {
+	color: #000;
+	opacity: .9
+}
+
+#input-wrapper {
+	height: 6em;
+	overflow: hidden;
+	margin-top: 30px
+}
+
+#output-wrapper {
+	height: fit-content;
+	padding: 30px
+}
+
+#output {
+	font-size: 1.4em;
+	word-break: break-word
+}
+
+#input:focus::-webkit-input-placeholder {
+	color: transparent
+}
+
+#output-wrapper button {
+	padding: 15px;
+	border-radius: 10px;
+}
